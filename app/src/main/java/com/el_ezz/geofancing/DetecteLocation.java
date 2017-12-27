@@ -48,13 +48,16 @@ public class DetecteLocation extends Fragment {
             @Override
             public void onLocationChanged(Location location) {
 
-               location.getBearing();
-
                 Location targetLocation = new Location("");//provider name is unnecessary
                 targetLocation.setLatitude(31.6204855);//your coords of course
                 targetLocation.setLongitude(-8.0798556);
+                
+                //hadi tat3tik degre ta3 position li biti
                 float degre = targetLocation.getBearing();
+                //hadi tat3tik distance
                 float distanceInMeters =  location.distanceTo(targetLocation);
+                //hadi tat3tik lfer9 b degre bin joj ta3 les point
+                location.bearingTo(targetLocation);
 
                 Toast.makeText(getActivity(),"Degre : "+Double.toString(degre)+" distanceInMeters : "+Double.toString(distanceInMeters),Toast.LENGTH_LONG).show();
 
