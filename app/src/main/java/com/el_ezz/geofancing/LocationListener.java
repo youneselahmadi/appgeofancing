@@ -22,11 +22,12 @@ public class LocationListener implements android.location.LocationListener {
                 System.currentTimeMillis()
         );*/
 
-      
+
        //  had lfonction hiya li tat3tik degre aba zaydi
        //  location.getBearing();
        //  hadi tat3tik lfer9 b lmitro bin lposition dyalk olpition lokhra
        //  location.distanceTo(Location b)
+
 
        Toast.makeText(context,"log"+Double.toString(location.getLongitude())+",lat"+Double.toString(location.getAltitude()),Toast.LENGTH_LONG).show();
     }
