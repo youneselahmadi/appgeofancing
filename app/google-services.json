@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "241443101097",
+    "firebase_url": "https://geofancing-cb477.firebaseio.com",
+    "project_id": "geofancing-cb477",
+    "storage_bucket": "geofancing-cb477.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241443101097:android:93630a8ff4c7adbe",
+        "android_client_info": {
+          "package_name": "com.el_ezz.geofancing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241443101097-jvvmt1lls5gmi1p96kgudo83jiuqas4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.el_ezz.geofancing",
+            "certificate_hash": "add939fcbcd7fd23f3c4e77ead00026c23c72f76"
+          }
+        },
+        {
+          "client_id": "241443101097-nvm97qq1r611o8m9rfidd3s2qa3t23bv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPIByaKE0WzMvcrMGHOGFTsylEZFNFloI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241443101097-nvm97qq1r611o8m9rfidd3s2qa3t23bv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

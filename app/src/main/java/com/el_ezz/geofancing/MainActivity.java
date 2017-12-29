@@ -21,12 +21,13 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
         NavigationView navigationView;
         Toolbar toolbar;
+        DetecteLocation detecteLocation;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        DetecteLocation detecteLocation=new DetecteLocation();
+         detecteLocation=new DetecteLocation();
         pushFragment(detecteLocation);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -90,9 +91,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_location) {
-            DetecteLocation detecteLocation =new DetecteLocation();
             pushFragment(detecteLocation);
-            // Handle the camera action
         } else if (id == R.id.nav_map) {
 
         } else if (id == R.id.nav_info) {
